@@ -7,7 +7,7 @@ cask "dormant" do
   desc "Put idle macOS project workspaces to sleep: clean, archive and restore them safely"
   homepage "https://dormant.prakashsewani.com"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Dormant.app"
 
