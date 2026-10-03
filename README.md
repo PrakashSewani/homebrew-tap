@@ -9,8 +9,7 @@ brew tap PrakashSewani/tap
 brew install --cask dormant
 ```
 
-The cask installs `Dormant.app` from the signed-off GitHub release zip (checksum-pinned per
-release). The first cask lands with the first Dormant release.
+The cask installs `Dormant.app` from the GitHub release DMG (checksum-pinned per release).
 
 ## First launch
 
@@ -19,8 +18,9 @@ it once:
 
 1. Open **System Settings → Privacy & Security**, click **"Open Anyway"**, then launch Dormant
    again.
-2. Enable the Finder extension in **System Settings → Extensions (Finder Extensions)** and
-   relaunch Finder for the "Dormant ▸" context menu.
+2. Dormant enables its Finder extension itself on that first launch; if it cannot, it offers a
+   button that opens the right System Settings pane. Allow a moment (or restart Finder) for the
+   "Dormant ▸" context menu to appear.
 
 ## Uninstall
 
